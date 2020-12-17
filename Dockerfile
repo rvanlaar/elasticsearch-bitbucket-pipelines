@@ -4,6 +4,6 @@ MAINTAINER Roland van Laar <roland@rolandvanlaar.nl>
 
 ENV discovery.type="single-node"
 
-ENV http.port=9250
+ENV http.port=9200
 
-EXPOSE 9250/tcp
+EXPOSE 9200/tcp
