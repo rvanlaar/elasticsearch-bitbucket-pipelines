@@ -36,7 +36,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: micontainer/elasticsearch-singlenode:${GITHUB_REF#refs/tags/v}
+          tags: micontainer/elasticsearch-singlenode:${{ GITHUB_REF#refs/tags/v }}
           
     
     - name: Image digest
